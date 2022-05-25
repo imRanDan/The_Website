@@ -1,13 +1,25 @@
-/* CSS HEX */
+:root {
 --feldgrau: #505f4eff;
 --russian-violet: #462255ff;
 --orange: #f77f00ff;
 --white: #ffffffff;
 --claret: #750d37ff;
+}
 
-/* CSS HSL */
---feldgrau: hsla(113, 10%, 34%, 1);
---russian-violet: hsla(282, 43%, 23%, 1);
---orange: hsla(31, 100%, 48%, 1);
---white: hsla(0, 0%, 100%, 1);
---claret: hsla(336, 80%, 25%, 1);
+.navbar {
+   list-style: none;
+   
+
+}
+
+.home-btn {
+   background-color: var(--orange);
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 13px;
+   cursor: pointer;
+}
