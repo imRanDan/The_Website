@@ -4,13 +4,14 @@
 --orange: #f77f00ff;
 --white: #ffffffff;
 --claret: #750d37ff;
+font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
    list-style: none;
 }
 
-.nav-item {
+.navbar li {
    display: inline;
 }
 
