@@ -14,6 +14,7 @@ font-family: 'Roboto', sans-serif;
 
 .navbar {
    list-style: none;
+   float: right;
 }
 
 .navbar ul {
@@ -22,6 +23,12 @@ font-family: 'Roboto', sans-serif;
 
 header {
    background: #505f4eff;
+}
+
+header::after {
+   content: '';
+   display: table;
+   clear: both;
 }
 
 .home-btn {
