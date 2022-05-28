@@ -2,10 +2,11 @@
    box-sizing: border-box;
    margin: 0;
    --feldgrau: #505f4eff;
-   --russian-violet: #462255ff;
+   --yellowgreencrayon: #D6F599;
    --orange: #f77f00ff;
-   --white: #ffffffff;
+   --platinum: #e9e3e6;
    --claret: #750d37ff;
+   --darkmode: #1B1B1B;
    font-family: 'Roboto', sans-serif;
  }
 
@@ -23,7 +24,7 @@
 .navbar li a {
    display: block;
    padding: 20px;
-   color: white;
+   color: var(--platinum);
    text-decoration: none;
    font-weight: bold;
 }
@@ -39,44 +40,49 @@ header::after {
 }
 
 .intro {
-   height: 350px;
+   height: 450px;
    width: 100%;
-   background-image: url(/assets/img/gradient-dark-orange.webp);
+   background-image: url(/assets/img/gradient-dark-orange.webp); 
+   /* background-color: var(--darkmode); */
    background-size: cover;
    background-repeat: no-repeat;
-   color: white;
+   color: var(--platinum);
    padding: 70px;
 }
 
 .intro h1 {
    color: var(--claret);
    text-align: center;
+   font-size: xx-large;
 }
 
 .intro p {
-   text-align: center;
-}
-
-.intro p b {
-   color: var(--feldgrau);
-}
-
-.intro div {
    padding-top: 25px;
    text-align: center;
 }
 
+.intro .full-name {
+   font-size: 50px;
+   color:var(--claret)
+}
+
+.intro div {
+   padding-top: 75px;
+   text-align: center;
+}
+
 .home-btn {
-   border: 2px solid var(--claret);
+   border: 2px solid var(--yellowgreencrayon);
    background-color: transparent;
-   padding: 15px 32px;
+   padding: 15px 15px;
+   margin-left: 20px;
    border-radius: 10px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 13px;
    font-weight: bold;
-   color: white;
+   color: var(--platinum);
    cursor: pointer;
 }
 
