@@ -29,7 +29,7 @@
 }
 
 header {
-   background: #505f4eff;
+   background: var(--claret);
 }
 
 header::after {
@@ -38,31 +38,51 @@ header::after {
    clear: both;
 }
 
-.home-btn {
-   background-color: var(--orange);
-   border: none;
+.intro {
+   height: 350px;
+   width: 100%;
+   background-image: url(/assets/img/gradient-dark-orange.webp);
+   background-size: cover;
+   background-repeat: no-repeat;
    color: white;
+   padding: 70px;
+}
+
+.intro h1 {
+   color: var(--claret);
+   text-align: center;
+}
+
+.intro p {
+   text-align: center;
+}
+
+.intro p b {
+   color: var(--feldgrau);
+}
+
+.intro div {
+   padding-top: 25px;
+   text-align: center;
+}
+
+.home-btn {
+   border: 2px solid var(--claret);
+   background-color: transparent;
    padding: 15px 32px;
-   border-radius: 12px;
+   border-radius: 10px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 13px;
    font-weight: bold;
+   color: white;
    cursor: pointer;
 }
 
-.intro {
-   height: 500px;
-   padding-top: 50px;
-}
-
-.intro h1 {
-   
-}
 
 .projects {
-   height: 500px;
+   height: 150px;
 
 }
 
