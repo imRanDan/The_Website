@@ -47,18 +47,18 @@ header::after {
    background-size: cover;
    background-repeat: no-repeat;
    color: var(--platinum);
-   padding: 70px;
+   padding: 45px;
 }
 
 .intro h1 {
    color: var(--claret);
    text-align: center;
-   font-size: xx-large;
+   padding-top: 15px;
 }
 
 .intro p {
    padding-top: 25px;
-   text-align: center;
+   text-align: left;
 }
 
 .intro .full-name {
@@ -66,9 +66,9 @@ header::after {
    color:var(--claret)
 }
 
-.intro div {
-   padding-top: 75px;
-   text-align: center;
+.intro .intro-btns {
+   padding-top: 45px;
+   text-align: left;
 }
 
 .home-btn {
@@ -92,7 +92,7 @@ header::after {
 
 }
 
-.services {
+.about-me{
    height: 500px;
 }
 
