@@ -1,24 +1,31 @@
-:root {
---feldgrau: #505f4eff;
---russian-violet: #462255ff;
---orange: #f77f00ff;
---white: #ffffffff;
---claret: #750d37ff;
-font-family: 'Roboto', sans-serif;
-}
-
-.container {
-   width: 80%;
-   margin: 0 auto;
-}
+*{
+   box-sizing: border-box;
+   margin: 0;
+   --feldgrau: #505f4eff;
+   --russian-violet: #462255ff;
+   --orange: #f77f00ff;
+   --white: #ffffffff;
+   --claret: #750d37ff;
+   font-family: 'Roboto', sans-serif;
+ }
 
 .navbar {
-   list-style: none;
-   float: right;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
 }
 
-.navbar ul {
-   display: inline;
+.navbar li {
+   float: left;
+}
+
+.navbar li a {
+   display: block;
+   padding: 20px;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
 }
 
 header {
@@ -36,9 +43,33 @@ header::after {
    border: none;
    color: white;
    padding: 15px 32px;
+   border-radius: 12px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 13px;
+   font-weight: bold;
    cursor: pointer;
+}
+
+.intro {
+   height: 500px;
+   padding-top: 50px;
+}
+
+.intro h1 {
+   
+}
+
+.projects {
+   height: 500px;
+
+}
+
+.services {
+   height: 500px;
+}
+
+.contact {
+   height: 500px;
 }
