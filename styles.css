@@ -58,7 +58,7 @@ header::after {
 
 .intro p {
    padding-top: 25px;
-   text-align: left;
+   text-align: center;
 }
 
 .intro .full-name {
@@ -68,7 +68,7 @@ header::after {
 
 .intro .intro-btns {
    padding-top: 45px;
-   text-align: left;
+   text-align: center;
 }
 
 .home-btn {
@@ -94,6 +94,8 @@ header::after {
 
 .about-me{
    height: 500px;
+   background-color: var(--feldgrau);
+   color: var(--platinum);
 }
 
 .contact {
