@@ -72,7 +72,7 @@ header::after {
 }
 
 .home-btn {
-   border: 2px solid var(--yellowgreencrayon);
+   border: 2px solid var(--darkmode);
    background-color: transparent;
    padding: 15px 15px;
    margin-left: 20px;
@@ -87,17 +87,28 @@ header::after {
 }
 
 
-.projects {
-   height: 150px;
-
-}
-
 .about-me{
    height: 500px;
-   background-color: var(--feldgrau);
+   background-color: var(--claret);
    color: var(--platinum);
+}
+
+.projects {
+   height: 150px;
+   background-color: var(--darkmode);
+   color: var(--platinum)
 }
 
 .contact {
    height: 500px;
+   background-color: var(--platinum);
+   background-image: url(/assets/img/gradient-dark-orange.webp); 
+   /* background-color: var(--darkmode); */
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+footer {
+   height: 30px;
+   background-color: var(--claret);
 }

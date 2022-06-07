@@ -34,6 +34,11 @@
         </div>
     </section>
 
+    <section class="projects">
+        <h2>Projects</h2>
+        <p>Here is a list of some of the projects I have worked on!</p>
+    </section>
+
     <section class="about-me">
         <h2>About me</h2>
         <p>I am a Full-Stack Web Developer based out of Hamilton, Ontario! 
@@ -45,11 +50,6 @@
 
     </section>
 
-    <section class="projects">
-        <h2>Projects</h2>
-        <p>Here is a list of some of the projects I have worked on!</p>
-    </section>
-
 
     <section class="contact">
         <h2>Contact Me</h2>
@@ -58,10 +58,35 @@
             when I can!</p>
 
         
-        <form>
-            <label for="first-name">First Name</label>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="name" name="first_name">
+                </li>
+                <li>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="name" name="last_name">
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message">
+                    </textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send your message</button>
+                </li>
+            </ul>         
         </form>
     </section>
+
+    <footer>
+
+    </footer>
 
 </body>
 </html>
