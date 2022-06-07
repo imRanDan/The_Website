@@ -108,6 +108,53 @@ header::after {
    background-repeat: no-repeat;
 }
 
+form {
+   margin: 0 auto;
+   width: 400px;
+
+   padding: 1em;
+   border: 1px solid #ccc;
+   border-radius: 1em;
+}
+
+form ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+
+form li + li {
+   margin-top: 1em;
+}
+
+form label {
+   display: inline-block;
+   width: 90px;
+}
+
+form input,
+textarea {
+   font: 1em sans-serif;
+
+   width: 300px;
+   box-sizing: border-box;
+
+   border: 1px solid #999;
+}
+
+form input:focus,
+textarea:focus {
+   border-color: #000;
+}
+
+form textarea {
+   vertical-align: top;
+
+   height: 5em;
+
+}
+
 footer {
    height: 30px;
    background-color: var(--claret);
