@@ -81,7 +81,7 @@ header::after {
 /* Projects Section */
 
 .projects {
-   height: 700px;
+   height: 720px;
    background-color: var(--claret);
    color: var(--platinum)
 }
@@ -96,39 +96,70 @@ header::after {
 
 .project-1 {
    background-size: cover;
-   background-color: var(--darkmode)
+   background-color: var(--darkmode);
+   background: url(/assets/img/pexels-pixabay-270408.jpg);
+   background-size: auto;
 }
 
 .project-2 {
    background-color: var(--darkmode)
 }
 
+.project-2:hover {
+   background-color: var(--feldgrau);
+}
+
 .project-3 {
    background-color: var(--darkmode)
+}
+
+.project-3:hover {
+   background-color: var(--feldgrau);
 }
 
 .project-4 {
    background-color: var(--darkmode)
 }
 
+.project-4:hover {
+   background-color: var(--feldgrau);
+}
+
 .project-5 {
    background-color: var(--darkmode)
+}
+
+.project-5:hover {
+   background-color: var(--feldgrau);
 }
 
 .project-6 {
    background-color: var(--darkmode)
 }
 
+.project-6:hover {
+   background-color: var(--feldgrau);
+}
+
 .project-7 {
    background-color: var(--darkmode)
 }
 
+.project-7:hover {
+   background-color: var(--feldgrau);
+}
+
 .project-8 {
-   background-color: var(--darkmode)
+   background-size: cover;
+   background-color: var(--darkmode);
+   background: url(/assets/img/pexels-pixabay-270408.jpg);
+   background-size: auto;
+   background-repeat: no-repeat;
 }
 
 .project-text {
-   text-align: center;
+   display: flex;
+   justify-content: center;
    font-size: 50px;
 }
 
@@ -149,11 +180,8 @@ header::after {
    cursor: pointer;
 }
 
-
-.about-me{
-   height: 500px;
-   background-color: var(--claret);
-   color: var(--platinum);
+.home-btn:hover {
+   background-color: var(--feldgrau);
 }
 
 
