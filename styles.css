@@ -71,6 +71,69 @@ header::after {
    text-align: center;
 }
 
+.section-heading {
+   text-align:center;
+   margin-top: 150px;
+   margin-bottom: 70px;
+   font-size: 35px;
+}
+
+/* Projects Section */
+
+.projects {
+   height: 700px;
+   background-color: var(--claret);
+   color: var(--platinum)
+}
+
+.column-4 {
+   float: left;
+   width: 21%;
+   padding: 10px;
+   margin: 20px;
+   height: 250px;
+}
+
+.project-1 {
+   background-size: cover;
+   background-color: var(--darkmode)
+}
+
+.project-2 {
+   background-color: var(--darkmode)
+}
+
+.project-3 {
+   background-color: var(--darkmode)
+}
+
+.project-4 {
+   background-color: var(--darkmode)
+}
+
+.project-5 {
+   background-color: var(--darkmode)
+}
+
+.project-6 {
+   background-color: var(--darkmode)
+}
+
+.project-7 {
+   background-color: var(--darkmode)
+}
+
+.project-8 {
+   background-color: var(--darkmode)
+}
+
+.project-text {
+   text-align: center;
+   font-size: 50px;
+}
+
+/* End of Projects */
+
 .home-btn {
    border: 2px solid var(--darkmode);
    background-color: transparent;
@@ -93,11 +156,6 @@ header::after {
    color: var(--platinum);
 }
 
-.projects {
-   height: 150px;
-   background-color: var(--darkmode);
-   color: var(--platinum)
-}
 
 .contact {
    height: 500px;
