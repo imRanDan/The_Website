@@ -5,7 +5,7 @@
    --maximum-blue-purple: #a6b1e1ff;
    --light-gray: #cacfd6ff;
    --azure-x-11-web-color: #d6e5e3ff;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif, monospace;
  }
 
  /* main general elements */
@@ -38,28 +38,58 @@ li {
 
 
 /* Intro Section */
-.intro {
+.hero {
    background-color: var(--languid-lavender);
    height: 100vh;
    color: black;
    font-size: 40px;
 }
 
-h1 {
+.hero h1 {
    font-size: 90px;
 }
 
+.hero p {
+   font-size: 30px;
+   font-weight: 100;
+}
 
-.intro-text {
+.hero-area {
+   display: flex;
+   height: 100%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+.hero-text {
   margin-left: 80px; 
+  margin-bottom: 200px;
 }
 
 .button {
    width: 200px;
-   height: 100px;
-   border-radius: 40px;
+   height: 55px;
+   border-radius: 30px;
    background-color: var(--purple-navy);
    text-align: center;
+   font-size: 30px;
+   font-weight: 300;
+   padding-top: 5px;
+   margin-top: 20px;
+}
+
+.button:hover {
+   background-color: var(--maximum-blue-purple);
+}
+
+.button:active {
+   background-color: var(--light-gray);
+   color:white;
+}
+
+.socials {
+   padding-bottom: 200px;
 }
 
 
