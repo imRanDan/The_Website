@@ -1,5 +1,4 @@
 *{
-   box-sizing: border-box;
    margin: 0;
    --purple-navy: #424874ff;
    --languid-lavender: #dcd6f7ff;
@@ -9,62 +8,62 @@
    font-family: 'Roboto', sans-serif;
  }
 
-.navbar {
+ /* main general elements */
+section {
+   height: 500px;
+   background-color: white;
+   border: 1px solid black;
+}
+ /* end of main general elements */
+
+/* Nav */
+nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+ul {
+   display: flex;
    list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
+   font-size: 30px;
+   justify-content: space-around;
 }
 
-.navbar li {
-   float: left;
-}
-
-.navbar li a {
-   display: block;
-   padding: 20px;
-   color: var(--purple-navy);
+li {
+   width: 200px;
    text-decoration: none;
-   font-weight: bold;
 }
 
-header {
-   background: var(--azure-x-11-web-color);
-}
+/* End of Nav */
 
-header::after {
-   content: '';
-   display: table;
-   clear: both;
-}
 
+/* Intro Section */
 .intro {
-   height: 400px;
-   width: 100%;
-   background-color: var(--light-gray);
-   color: var(--platinum);
+   background-color: var(--languid-lavender);
+   height: 100vh;
+   color: black;
+   font-size: 40px;
 }
 
-.intro h1 {
-   color: var(--maximum-blue-purple);
-   text-align: center;
-   padding-top: 15px;
+h1 {
+   font-size: 90px;
 }
 
-.intro p {
-   padding-top: 25px;
-   text-align: center;
+
+.intro-text {
+  margin-left: 80px; 
 }
 
-.intro .full-name {
-   font-size: 50px;
-   color:var(--purple-navy)
-}
-
-.intro .intro-btns {
-   padding-top: 45px;
+.button {
+   width: 200px;
+   height: 100px;
+   border-radius: 40px;
+   background-color: var(--purple-navy);
    text-align: center;
 }
+
+
+/* End of Intro */
 
 
 /* Projects Section */
@@ -74,3 +73,11 @@ header::after {
 /* About ME */
 
 /* End of About Me */
+
+/* Footer */
+footer {
+   height: 500px;
+
+   background-color: var(--purple-navy)
+}
+/* End of Footer */
