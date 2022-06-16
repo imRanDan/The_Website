@@ -1,4 +1,5 @@
 *{
+   box-sizing: border-box;
    margin: 0;
    --purple-navy: #424874ff;
    --languid-lavender: #dcd6f7ff;
@@ -25,6 +26,7 @@ nav {
 ul {
    display: flex;
    list-style-type: none;
+   padding-top: 30px;
    font-size: 30px;
    justify-content: space-around;
 }
@@ -68,7 +70,7 @@ li {
 }
 
 .button {
-   width: 200px;
+   width: 170px;
    height: 55px;
    border-radius: 30px;
    background-color: var(--purple-navy);
@@ -77,6 +79,7 @@ li {
    font-weight: 300;
    padding-top: 5px;
    margin-top: 20px;
+   color: white;
 }
 
 .button:hover {
@@ -85,11 +88,20 @@ li {
 
 .button:active {
    background-color: var(--light-gray);
-   color:white;
 }
 
 .socials {
    padding-bottom: 200px;
+}
+
+.logo {
+   font-family: 'Joan', serif;
+   font-weight: 500;
+   margin: 30px;
+}
+
+.social {
+   margin: 30px;
 }
 
 
