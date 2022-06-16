@@ -1,12 +1,11 @@
 *{
    box-sizing: border-box;
    margin: 0;
-   --feldgrau: #505f4eff;
-   --yellowgreencrayon: #D6F599;
-   --orange: #f77f00ff;
-   --platinum: #e9e3e6;
-   --claret: #750d37ff;
-   --darkmode: #1B1B1B;
+   --purple-navy: #424874ff;
+   --languid-lavender: #dcd6f7ff;
+   --maximum-blue-purple: #a6b1e1ff;
+   --light-gray: #cacfd6ff;
+   --azure-x-11-web-color: #d6e5e3ff;
    font-family: 'Roboto', sans-serif;
  }
 
@@ -24,13 +23,13 @@
 .navbar li a {
    display: block;
    padding: 20px;
-   color: var(--platinum);
+   color: var(--purple-navy);
    text-decoration: none;
    font-weight: bold;
 }
 
 header {
-   background: var(--claret);
+   background: var(--azure-x-11-web-color);
 }
 
 header::after {
@@ -40,18 +39,14 @@ header::after {
 }
 
 .intro {
-   height: 450px;
+   height: 400px;
    width: 100%;
-   background-image: url(/assets/img/gradient-dark-orange.webp); 
-   /* background-color: var(--darkmode); */
-   background-size: cover;
-   background-repeat: no-repeat;
+   background-color: var(--light-gray);
    color: var(--platinum);
-   padding: 45px;
 }
 
 .intro h1 {
-   color: var(--claret);
+   color: var(--maximum-blue-purple);
    text-align: center;
    padding-top: 15px;
 }
@@ -63,7 +58,7 @@ header::after {
 
 .intro .full-name {
    font-size: 50px;
-   color:var(--claret)
+   color:var(--purple-navy)
 }
 
 .intro .intro-btns {
@@ -81,9 +76,9 @@ header::after {
 /* Projects Section */
 
 .projects {
-   height: 720px;
-   background-color: var(--claret);
-   color: var(--platinum)
+   height: 700px;
+   background-color: var(--azure-x-11-web-color);
+   color: var(--purple-navy)
 }
 
 .column-4 {
@@ -106,7 +101,7 @@ header::after {
 }
 
 .project-2:hover {
-   background-color: var(--feldgrau);
+   background-color: var(--maximum-blue-purple);
 }
 
 .project-3 {
@@ -114,7 +109,7 @@ header::after {
 }
 
 .project-3:hover {
-   background-color: var(--feldgrau);
+   background-color: var(--maximum-blue-purple);
 }
 
 .project-4 {
@@ -122,7 +117,7 @@ header::after {
 }
 
 .project-4:hover {
-   background-color: var(--feldgrau);
+   background-color: var(--maximum-blue-purple);
 }
 
 .project-5 {
@@ -130,23 +125,7 @@ header::after {
 }
 
 .project-5:hover {
-   background-color: var(--feldgrau);
-}
-
-.project-6 {
-   background-color: var(--darkmode)
-}
-
-.project-6:hover {
-   background-color: var(--feldgrau);
-}
-
-.project-7 {
-   background-color: var(--darkmode)
-}
-
-.project-7:hover {
-   background-color: var(--feldgrau);
+   background-color: var(--maximum-blue-purple);
 }
 
 .project-8 {
@@ -164,6 +143,16 @@ header::after {
 }
 
 /* End of Projects */
+
+/* About ME */
+
+.about-me {
+   background-color: var(--light-gray);
+   height: 350px;
+}
+
+
+/* End of About Me */
 
 .home-btn {
    border: 2px solid var(--darkmode);
@@ -187,8 +176,7 @@ header::after {
 
 .contact {
    height: 500px;
-   background-color: var(--platinum);
-   background-image: url(/assets/img/gradient-dark-orange.webp); 
+   background-color: var(--azure-x-11-web-color);
    /* background-color: var(--darkmode); */
    background-size: cover;
    background-repeat: no-repeat;
@@ -198,6 +186,7 @@ form {
    margin: 0 auto;
    width: 400px;
 
+   background-color: var(--languid-lavender);
    padding: 1em;
    border: 1px solid #ccc;
    border-radius: 1em;
