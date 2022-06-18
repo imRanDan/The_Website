@@ -147,6 +147,7 @@ li {
    width: 300px;
    height: 500px;
    box-shadow: 5px 5px 20px grey;
+   margin: 10px;
 }
 
 .project-container {
@@ -156,7 +157,13 @@ li {
 
 .project-image {
    margin-top: 25px;
-    
+   width: 250px;
+   border-radius: 125px; 
+}
+
+hr {
+   margin-left: 20px;
+   margin-right: 20px;
 }
 
 /* End of About Me */
