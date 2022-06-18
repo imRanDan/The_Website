@@ -11,9 +11,7 @@
 
  /* main general elements */
 section {
-   height: 500px;
    background-color: white;
-   border: 1px solid black;
 }
  /* end of main general elements */
 
@@ -113,6 +111,43 @@ li {
 /* End of Projects */
 
 /* About ME */
+.who-am-i {
+   display: flex;
+   justify-content: space-around;
+   padding: 30px
+}
+
+.who-am-i h2 {
+   font-size: 50px;
+}
+
+.sub-section {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding: 30px
+}
+
+.headshot {
+   height: 200px;
+   border-radius: 200px;
+}
+
+.headshot-container {
+   display: flex;
+   align-items: center; 
+}
+
+.project-square {
+   width: 300px;
+   height: 500px;
+   box-shadow: 5px 5px 20px grey;
+}
+
+.project-container {
+   display: flex;
+   justify-content: space-around;
+}
 
 /* End of About Me */
 
