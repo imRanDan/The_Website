@@ -93,8 +93,7 @@ li {
 }
 
 .logo {
-   font-family: 'Joan', serif;
-   font-weight: 500;
+   width: 150px;
    margin: 30px;
 }
 
